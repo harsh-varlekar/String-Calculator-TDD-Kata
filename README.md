@@ -1,24 +1,25 @@
-# README
+# String Calculator TDD Kata
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project implements a simple **String Calculator** using Test-Driven Development (TDD) principles. The calculator can handle addition of numbers in various formats and throws exceptions for invalid inputs such as negative numbers.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- **Empty String**: Returns 0 for an empty string.
+- **Single Number**: Returns the number itself when given a single number.
+- **Comma-Separated Numbers**: Returns the sum for numbers separated by commas.
+- **New Line Separators**: Supports numbers separated by newlines (`\n`).
+- **Custom Delimiters**: Allows custom delimiters as defined in the input string.
+- **Negative Number Handling**: Throws an exception with a detailed message for negative numbers.
 
-* System dependencies
+## Requirements
 
-* Configuration
+- Ruby 2.7 or later
+- RSpec for testing
 
-* Database creation
+## Installation
 
-* Database initialization
+1. Clone this repository:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+   ```bash
+   git clone https://github.com/your-username/string-calculator-tdd-kata.git
+   cd string-calculator-tdd-kata
